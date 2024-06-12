@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    
+      
+}
+html{
+    font-size: 62.5;
+}
+body{
+    background-color: black;
+}
+.parent{
+    display: flex;
+}
+.child{
+    flex-wrap: wrap;
+
+}
+.logo{
+    width: 165px;
+    padding: 10px;
+
+
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size:1rem;
+    font-weight: 500px;
+
+}
