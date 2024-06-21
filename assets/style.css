@@ -19,26 +19,30 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-    
-
-    
+    padding-top:10px;
+    align-items: center;
 }
 .child{
-    
-
-    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 
 }
 .logo{
     width: 165px;
-    padding: 10px;
-
-
-    
 }
 a{
     color: aliceblue;
     font-size:1rem;
     font-weight: 500px;
+    
 
+
+}
+.butt{
+    border-radius:30px;
+    background-color:transparent ;
+    color: white;
+    padding: 15px 25px;
+    align-items:center;
 }
